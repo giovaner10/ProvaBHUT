@@ -19,7 +19,7 @@ Endpoints
 		Criar um carro na api externa
 		http://localhost:8080/api/createCar
 
-Exemplo:
+Exemplo
 
 		{
     "_id": "19a193a2990377b01d59e404",

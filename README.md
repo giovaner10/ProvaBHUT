@@ -5,7 +5,8 @@
  Para o serviço de mensageria utilizei o RabbitMQ, então é necessário que você tenha ele instalado ou uma imagem rodando na sua máquina, após isso é necessario validar no application.properties os dados de user e password para a conexão, se faz necessário criar uma exchange com o nome de "amq.direct".
 
 
-Endpoints:
+Endpoints
+
 	GET:
 		Lista de carros da API externa
 		http://localhost:8080/api/listCars

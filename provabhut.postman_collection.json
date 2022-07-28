@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "1bba3538-0df9-4b6f-a5ec-7a0b11955891",
+		"name": "provabhut",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18347713"
+	},
+	"item": [
+		{
+			"name": "Listar logs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/logs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"logs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar carros da API externa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/listCars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"listCars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar carro na API externa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"62e04accf8037d001c59e9x9\",\r\n    \"title\": \"Corolla\",\r\n    \"brand\": \"Toyota\",\r\n    \"price\": \"70000\",\r\n    \"age\": 2016,\r\n    \"__v\": 0.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/createCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"createCar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

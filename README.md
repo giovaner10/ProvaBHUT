@@ -3,6 +3,8 @@
  Após a importação das dependências para o projeto, é necessário que o MongoDB esteja instalado em sua máquina, na solução que desenvolvi a conexão entre a aplicação SpringBoot e o MongoDB é feita de forma automática (Verificar conexão no application.properties).
 
  Para o serviço de mensageria utilizei o RabbitMQ, então é necessário que você tenha ele instalado ou uma imagem rodando na sua máquina, após isso é necessario validar no application.properties os dados de user e password para a conexão, se faz necessário criar uma exchange com o nome de "amq.direct".
+ 
+ Recomendado o uso do postman para visualização dos resultados
 
 
 Endpoints

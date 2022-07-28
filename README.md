@@ -4,7 +4,8 @@
 
  Para o serviço de mensageria utilizei o RabbitMQ, então é necessário que você tenha ele instalado ou uma imagem rodando na sua máquina, após isso é necessario validar no application.properties os dados de user e password para a conexão, se faz necessário criar uma exchange com o nome de "amq.direct".
  
- Recomendado o uso do postman para visualização dos resultados
+
+ Recomendado o uso do postman para visualização dos resultados, importar para seu postman o arquivo "provabhut.postman_collection", e verificaro funcianamento das requisições(link: https://github.com/giovaner10/ProvaBHUT/blob/master/provabhut.postman_collection.json).
 
 
 Endpoints
@@ -21,14 +22,14 @@ Endpoints
 		Criar um carro na api externa
 		http://localhost:8080/api/createCar
 
-Exemplo
+Exemplo para o POST na API externa:
 
-		{
+    {
     "_id": "19a193a2990377b01d59e404",
     "title": "Corolla",
     "brand": "Toyota",
     "price": "70000",
     "age": 2016,
     "__v": 0.0
-}
+    }
 

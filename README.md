@@ -5,7 +5,7 @@
  Para o serviço de mensageria utilizei o RabbitMQ, então é necessário que você tenha ele instalado ou uma imagem rodando na sua máquina, após isso é necessario validar no application.properties os dados de user e password para a conexão, se faz necessário criar uma exchange com o nome de "amq.direct".
  
 
- Recomendado o uso do postman para visualização dos resultados, importar para seu postman o arquivo "provabhut.postman_collection", e verificaro funcianamento das requisições(link: https://github.com/giovaner10/ProvaBHUT/blob/master/provabhut.postman_collection.json).
+ Recomendo o uso do postman para visualização dos resultados, para facilitar, basta importar para seu postman o arquivo "provabhut.postman_collection", e verificar o funcianamento das requisições(link: https://github.com/giovaner10/ProvaBHUT/blob/master/provabhut.postman_collection.json).
 
 
 Endpoints
